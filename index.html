@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Pig game</title>
+  </head>
+  <body>
+       <main>
+        <!-- Section for Player 1 -->
+      <section class="player player--0 player--active">
+         <!-- Heading displaying the name of Player 1 -->
+        <h2 class="name" id="name--0">Player 1</h2>
+        <!-- Paragraph showing the current score of Player 1 -->
+        <p class="score" id="score--0">43</p>
+  <!-- Container for the current score section of Player 1 -->
+        <div class="current">
+           <!-- Label for the current score -->
+          <p class="current-label">Current</p>
+             <!-- Paragraph showing the current (temporary) score of Player 1 -->
+          <p class="current-score" id="current--0">0</p>
+        </div>
+
+      </section>
+      <!-- Section for Player 2 -->
+      <section class="player player--1">
+         <!-- Heading displaying the name of Player 2 -->
+        <h2 class="name" id="name--1">Player 2</h2>
+         <!-- Paragraph showing the current score of Player 2 -->
+        <p class="score" id="score--1">24</p>
+        <!-- Container for the current score section of Player 2 -->
+        <div class="current">
+          <!-- Label for the current score -->
+          <p class="current-label">Current</p>
+           <!-- Paragraph showing the current (temporary) score of Player 2 -->
+          <p class="current-score" id="current--1">0</p>
+        </div>
+      </section>
+        <!-- Image of a dice, indicating the current dice roll -->
+      <img src="./pictures/dice-4.png" alt="Playing dice" class="dice" />
+       <!-- Button to start a new game -->
+      <button class="btn btn--new">🔄 New game</button>
+      <!-- Button to roll the dice -->
+      <button class="btn btn--roll">🎲 Roll dice</button>
+      <!-- Button to hold the current score -->
+      <button class="btn btn--hold">📥 Hold</button>
+    </main>
+    <script src="./script.js"></script>
+  </body>
+</html>
